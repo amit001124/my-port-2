@@ -1,0 +1,151 @@
+.head{
+    height: 5rem;
+    color:black;
+    background-color:rgb(9, 96, 99);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.nav{    
+    height: 2rem;
+    background-color: rgb(3, 58, 80);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    padding: 0.4%;
+    z-index: 1;
+}
+.nav>div{
+    padding: 0 3.5% 0 3.5%;
+}
+a{
+    text-decoration: none;
+    color: bisque;
+}
+.bg-image{
+    height: 45rem;
+    background-color: black;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    
+}
+.ft-image{
+    height: 18rem;
+    width: 18rem;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    background-image: url(bg-image.jpg);
+    background-size: cover;
+}
+.name{
+    font-weight: bolder;
+    font-size: xxx-large;
+    color:black;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+}
+
+
+.about{
+    height:40rem ;
+    background-color: rgb(223, 205, 181);
+}
+.about-head{
+    text-align: center;
+    color:black;
+    font-size: xxx-large;
+    font-weight: bolder;
+    padding: 1.5rem 0 0.8rem;
+    background-color:rgb(3, 58, 80) ;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+}
+.myimage{
+    height: 32rem;
+    width: 140rem;
+    background-image:url(WhatsApp\ Image\ 2025-01-05\ at\ 4.30.49\ PM.jpeg) ;
+    background-size: cover;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 50%;
+}
+.para{
+    color:rgb(60, 7, 7);
+    font-weight: bold;
+    font-size: larger;
+    text-align: justify;
+    line-height:2.4rem;
+    letter-spacing: 0.01rem;
+    word-spacing: 0.75rem;
+    margin: 1rem 3.5rem 1rem 3.5rem;
+}
+
+
+.education{
+    height: 36rem;
+    background-color: rgb(220,202, 180);
+}
+.edu-head{
+    text-align: center;
+    color:black;
+    font-size: xxx-large;
+    font-weight: bolder;
+    padding: 1.5rem 0 0.8rem;
+    background-color: rgb(3, 58, 80);
+}
+#institute{
+    color: rgb(60,7,7);
+}
+#degree{
+    color: rgb(60,7,7);
+    opacity: 0.65;
+}
+
+.certificate{
+    height: 18rem;
+    background-color: rgb(214,198,175);
+
+}
+.cert-head{
+    text-align: center;
+    color:black;
+    font-size: xxx-large;
+    font-weight: bolder;
+    padding: 1.5rem 0 0.8rem;
+    background-color: rgb(3, 58, 80);
+}
+.course{
+    font-weight: bold;
+    font-size:larger;
+    padding: 10px;
+}
+.company{
+    font-weight: bold;
+    font-size:larger;
+    padding: 0.1% 35%;
+}
+
+.contact{
+    height: 22rem;
+    color:white;
+    background-color:rgb(3, 58, 80);
+}
+.cont-head{
+    color:white ;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+    padding: 1.5rem 0 0.8rem;
+}
+.form{
+    padding: 1.5rem 14rem;
+}
+.email{
+    padding: 2rem 0.1rem 2rem 0.1rem;
+}
